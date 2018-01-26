@@ -18,7 +18,7 @@
     /* Other */
     font-family: Georgia;
     text-align: center;
-    background-color: #2e3b4b;
+    /*background-color: #2e3b4b;*/
 }
 
 .button {
@@ -74,6 +74,7 @@
     text-align: left;
 }
 
+/*
 #trucker {
     background-color: lightgray;
     border-radius: 10px;
@@ -90,4 +91,4 @@
     border: 5px;
 
 
-}
+}*/
