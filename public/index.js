@@ -7,10 +7,10 @@
     const div = document.createElement('div');
     const template = actors.map(actor => {
       return `
-        <div class="actor">
-          <span>${actor.who}</span>
-          <span>${actor.type}</span>
-          <span>${actor.amount}</span>
+        <div class="actor col">
+          <span><h1>${actor.who}</h1></span>
+          <span><h2>${actor.type}</h2></span>
+          <span><h3>${actor.amount} \u20AC</h3></span>
         </div>
       `;
     }).join('');

@@ -40,6 +40,16 @@
     background-color: #fdb653;
 }
 
+.textBox {
+    color: black;
+    font-weight: bold;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 2px;
+}
+
+/*
 .price-by-km {
     color: black;
     font-weight: bold;
@@ -60,36 +70,50 @@
     font-weight: bold;
 }
 
-
 .volume {
     color: black;
     font-weight: bold;
 }
+*/
 
 .option {
     color: black;
     font-weight: bold;
 }
 
-.actors {
-    text-align: left;
+.actors {}
+
+.actor {
+    /* Positioning */
+    width: 200px;
+    margin: 20px auto;
+
+    /* Display & Box Model */
+    padding: 20px;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+
+    /* Other */
+    color: #FFF;
+    background-color: grey;
+    font-weight: bold;
+    text-align: center;
 }
 
-/*
-#trucker {
-    background-color: lightgray;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 5px;
-    border: 5px;
+.actor h1 {
+    font-family: monospace;
+    color: darkblue;
+    font-weight: bold;
 }
 
-#shipper {
-    background-color: lightcyan;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 5px;
-    border: 5px;
+.actor h2 {
+    font-family: monospace;
+    color: grey;
+    visibility: hidden;
+}
 
+.actor h3 {
+    font-family: monospace;
+    color: white;
 
-}*/
+}
