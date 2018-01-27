@@ -76,20 +76,24 @@
 }
 */
 
+/* Custom Checkbox */
+
 .option {
     color: black;
     font-weight: bold;
+    border-radius: 100%;
+    background-color: greenyellow;
 }
 
 .actors {}
 
 .actor {
     /* Positioning */
-    width: 200px;
+    width: auto;
     margin: 20px auto;
 
     /* Display & Box Model */
-    padding: 20px;
+    padding: 10px;
     border: 2px solid #5D6063;
     border-radius: 5px;
 
@@ -109,8 +113,16 @@
 .actor h2 {
     font-family: monospace;
     color: grey;
-    visibility: hidden;
+    visibility: none;
 }
+
+.actor h2:hover {
+    font-family: monospace;
+    color: lightblue;
+    visibility: visible;
+}
+
+
 
 .actor h3 {
     font-family: monospace;
