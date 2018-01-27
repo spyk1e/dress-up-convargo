@@ -1,12 +1,10 @@
-
-
 .mid {
     /* Positioning */
     position: absolute;
     left: 0%;
     right: 0%;
     margin: auto;
-    
+
     /* Display & Box Model */
     max-width: 800px;
     border: 25px;
@@ -36,7 +34,10 @@
     background-color: #5995DA;
     font-weight: bold;
     text-align: center;
+}
 
+.button:hover {
+    background-color: #fdb653;
 }
 
 .price-by-km {
