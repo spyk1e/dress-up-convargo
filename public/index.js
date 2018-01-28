@@ -5,6 +5,7 @@
     const render = (actors) => {
         const fragment = document.createDocumentFragment();
         const div = document.createElement('div');
+        div.setAttribute("class", "row");
         const template = actors.map(actor => {
             return `
         <div class="actor col">
