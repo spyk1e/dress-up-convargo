@@ -37,7 +37,7 @@
 }
 
 .button:hover {
-    background-color: #fdb653;
+    background-color: #20B0F6;
 }
 
 .textBox {
@@ -48,35 +48,6 @@
     margin: 5px;
     padding: 2px;
 }
-
-/*
-.price-by-km {
-    color: black;
-    font-weight: bold;
-}
-
-.price-by-cubic {
-    color: black;
-    font-weight: bold;
-}
-
-.name {
-    color: black;
-    font-weight: bold;
-}
-
-.distance {
-    color: black;
-    font-weight: bold;
-}
-
-.volume {
-    color: black;
-    font-weight: bold;
-}
-*/
-
-/* Custom Checkbox */
 
 .option {
     color: black;
@@ -94,32 +65,32 @@
 
     /* Display & Box Model */
     padding: 10px;
-    border: 2px solid #5D6063;
+    border: 2px solid #2E3B4B;
     border-radius: 5px;
     margin: 10px;
 
     /* Other */
     color: #FFF;
-    background-color: grey;
+    background-color: #2E3B4B;
     font-weight: bold;
     text-align: center;
 }
 
 .actor h1 {
     font-family: monospace;
-    color: darkblue;
+    color: #20B0F6;
     font-weight: bold;
 }
 
 .actor h2 {
     font-family: monospace;
-    color: grey;
+    color: #2E3B4B;
     visibility: none;
 }
 
 .actor h2:hover {
     font-family: monospace;
-    color: lightblue;
+    color: #47639E;
     visibility: visible;
 }
 
